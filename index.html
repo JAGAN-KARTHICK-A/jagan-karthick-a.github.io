@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A.Jagan Karthick | Portfolio</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Particles.js -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- Three.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <!-- ScrollReveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="style_final_v2.css">
+</head>
+<body>
+    <!-- Particle Background -->
+    <div id="particles-js"></div>
+    
+    <!-- 3D Floating Elements -->
+    <div id="threejs-container"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">Jagan</div>
+        <div class="menu">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#personal">Contact</a>
+            <a href="#coding-profile">Coding Profile</a>
+            <a href="./resume/resume.pdf">Resume</a>
+        </div>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Hi, I'm <span>A.Jagan Karthick</span></h1>
+                <p class="subtitle">AI/ML Developer & Web Developer and Python Developer</p>
+                <div class="social-links">
+                    <a href="https://github.com/JAGAN-KARTHICK-A" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/jagankarthick" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://leetcode.com/JaganKarthick" target="_blank"><i class="fas fa-code"></i></a>
+                </div>
+                <a href="./resume/resume.pdf" download class="download-btn">
+                    <i class="fas fa-download"></i> Download Resume
+                </a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="profile-image">
+                    <img src="images/profile.jpg" style="height: 350px;" alt="Jagan's Profile Picture">
+                </div>
+                <div class="about-text">
+                    <p>I'm A. Jagan Karthick — a passionate techie who loves building cool things with code, AI, and hardware. I recently got promoted as the Webmaster of ACM SRM IST, and I also started working as a Software Developer Engineer at DECCAANOW Corp.
+
+                        I enjoy exploring the full stack — from backend stuff with Python, Flask, Django, and MongoDB, to frontend frameworks like React and design tools like Bulma and Ant Design. I’ve built everything from real-time chat apps (like Chatverse) to full-blown IoT systems that monitor road safety using LoRaWAN, sensors, and MicroPython.
+                        
+                        AI and ML are my core interests. I’m deep into PyTorch right now, learning CNNs, RNNs, LSTMs, and even Transformers. I’ve already done projects like heart disease prediction, diabetes detection, and now working on face recognition and sentiment analysis. I like to go deep into concepts — I don’t just want to use them, I want to understand them.
+                        
+                        Outside of that, I’ve started building Python modules and tools to publish on GitHub and PyPI. Always learning, always building, always trying to level up — whether it’s through hackathons, internships, or just personal projects.</p>
+                    <div class="skills">
+                        <span>Python</span>
+                        <span>C++</span>
+                        <span>JavaScript</span>
+                        <span>Web Development</span>
+                        <span>Data structures and Algorithms</span>
+                        <span>Artificial intelligence</span>
+                        <span>Deep learning</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Experience Section -->
+        <section id="experience" class="section">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="timeline">
+                <div class="timeline-line"></div>
+                
+                <div class="experience-item">
+                    <div class="experience-date">March 2025 - Present</div>
+                    <div class="experience-card">
+                        <div class="experience-header">
+                            <h3>Software Developer Engineer</h3>
+                            <span class="company">DECCAANOW Corp</span>
+                        </div>
+                        <div class="experience-details">
+                            <ul>
+                                <li>Developing and maintaining web applications using Python and Django</li>
+                                <li>Implementing AI/ML solutions for business problems</li>
+                                <li>Collaborating with cross-functional teams to deliver features</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-date">January 2025 - Present</div>
+                    <div class="experience-card">
+                        <div class="experience-header">
+                            <h3>Webmaster</h3>
+                            <span class="company">ACM SRM IST</span>
+                        </div>
+                        <div class="experience-details">
+                            <ul>
+                                <li>Managing and maintaining ACM chapter website</li>
+                                <li>Developing interactive web applications for events</li>
+                                <li>Leading web development workshops for members</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-date">October 25, 2024 - December 31, 2024</div>
+                    <div class="experience-card">
+                        <div class="experience-header">
+                            <h3>Python Developer Intern</h3>
+                            <span class="company">Infosys Springboard</span>
+                        </div>
+                        <div class="experience-details">
+                            <ul>
+                                <li> Developed a bulk email automation system using Python,
+                                    Streamlit, and SMTP, enabling efficient mass communication
+                                    with a user-friendly interface.</li>
+                                <li>Integrated Google OAuth2 for secure authentication, ensuring
+                                    safe access to email accounts.</li>
+                                <li>Improved system reliability and security by setting up error
+                                    handling and monitoring mechanisms.</li>
+                                <li>
+                                    Enhanced overall performance by optimizing email dispatch
+                                    speed and reducing delivery failures, improving campaign
+                                    effectiveness.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <h2 class="section-title">Education</h2>
+            <div class="education-container">
+                <div class="education-item">
+                    <h3>College</h3>
+                    <p class="institution">SRM Institute of Science and Technology</p>
+                    <p class="details">Degree: Bachelor of Technology</p>
+                    <p class="details">CGPA: 8.77/10</p>
+                    <p class="duration">2024 - 2028</p>
+                </div>
+                <div class="education-item">
+                    <h3>School (Grade 12)</h3>
+                    <p class="institution">Vidhyasagar International Public School</p>
+                    <p class="details">Percentage: 88.4%</p>
+                    <p class="duration">2023 - 2024</p>
+                </div>
+                <div class="education-item">
+                    <h3>School (Grade 10)</h3>
+                    <p class="institution">Kids Club CBSE School</p>
+                    <p class="details">Percentage: 93.4%</p>
+                    <p class="duration">2021 - 2022</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project1.jpg" alt="Diabetes Detection Machine Learning Model">
+                    </div>
+                    <div class="project-info">
+                        <h3>Diabetes Detection Machine Learning Model</h3>
+                        <p>The main goal of this project is to build a machine learning model that predicts diabetes from a set of diagnostic measures. It uses a dataset containing medical data such as age, BMI, insulin levels, glucose levels, and more. The project includes data preprocessing, model training, evaluation, and output generation.</p>
+                        <a href="https://github.com/JAGAN-KARTHICK-A/diabetes-detection" class="project-link">View Project</a>
+                    </div>
+                </div>
+                <!-- More project cards can be added here -->
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project2.jpg" alt="Cardiovascular Disease Prediction using Neural Networks">
+                    </div>
+                    <div class="project-info">
+                        <h3>Cardiovascular Disease Prediction using Neural Networks</h3>
+                        <p>This project is a Flask web application that allows users to predict the likelihood of cardiovascular disease using a trained neural network model. The model is built using PyTorch and trained on the UCI Cardiovascular Disease dataset.</p>
+                        <a href="https://github.com/JAGAN-KARTHICK-A/heart-disease-detection" class="project-link">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section">
+        <h2 class="section-title">Certifications</h2>
+        <div class="certifications-grid">
+            <div class="certification-card">
+                <div class="certificate-image">
+                    <img src="images/InfosysInternshipCertification.jpg" alt="Internship 5.0 (Infosys Springboard)">
+                </div>
+                <div class="certificate-info">
+                    <h3>Internship 5.0 (Infosys Springboard)</h3>
+                    <p>I have successfully completed the "Internship 5.0 (B2) – Development of Mass Mailing Application" offered by Infosys Springboard, where I gained hands-on experience in building a full-fledged mass mailing application using Python. This project-based internship provided me with practical exposure to backend development, email automation using SMTP protocols, and web application design using frameworks like Flask or Streamlit. I developed skills in modular programming, database integration, and implementing secure, scalable features for sending bulk emails. Additionally, I enhanced my understanding of debugging, project documentation, and software development practices, while also strengthening my problem-solving, time management, and communication skills. This internship simulated an industry-like environment and significantly contributed to my growth as a software developer.</p>
+                    <a href="certificates/InfosysInternshipCertification.pdf" class="view-certificate" target="_blank">View Certificate</a>
+                </div>
+            </div>
+            <!-- Add more certification cards as needed -->
+            <div class="certification-card">
+                <div class="certificate-image">
+                    <img src="images/DSA_CERTIFICATE_page.jpg" alt="100% Job Ready DSA Course">
+                </div>
+                <div class="certificate-info">
+                    <h3>100% Job Ready DSA Course</h3>
+                    <p>I have completed the "100% Job Ready DSA Course" by Mohammad Fraz on the LearnYard platform, where I gained a solid foundation in Data Structures and Algorithms, covering topics such as arrays, linked lists, stacks, queues, trees, graphs, recursion, sorting, searching, and dynamic programming. This course not only strengthened my algorithmic thinking and coding skills but also prepared me for technical interviews and real-world problem-solving. Applying this knowledge, I have solved 175+ problems on LeetCode and many more on platforms like GeeksforGeeks, HackerRank, and others, consistently improving my logic-building and coding proficiency.</p>
+                    <a href="certificates/DSA_CERTIFICATE.pdf" class="view-certificate" target="_blank">View Certificate</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Personal Details Section -->
+    <section id="personal" class="section">
+        <h2 class="section-title">Personal Details & Contact</h2>
+        <div class="details-grid">
+            <div class="detail-card">
+                <i class="fas fa-envelope"></i>
+                <h3>Email</h3>
+                <p>jagankarthick2@gmail.com</p>
+            </div>
+            <div class="detail-card">
+                <i class="fas fa-phone"></i>
+                <h3>Phone</h3>
+                <p>+91 7904088592</p>
+            </div>
+            <div class="detail-card">
+                <i class="fas fa-map-marker-alt"></i>
+                <h3>Address</h3>
+                <p>SRM Institute of Science and Technology, Tiruchirapalli, Tamil Nadu, India</p>
+            </div>
+            <div class="detail-card">
+                <i class="fas fa-birthday-cake"></i>
+                <h3>Age</h3>
+                <p>18</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Enhanced Coding Profile Section -->
+<section id="coding-profile" class="section">
+    <h2 class="section-title">Coding Profile</h2>
+    <div class="profile-container">
+        <div class="platform-badge">
+            <i class="fas fa-laptop-code"></i>
+            <span>LeetCode</span>
+        </div>
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-icon">
+                    <i class="fas fa-check-circle"></i>
+                </div>
+                <div class="stat-content">
+                    <h3>Problems Solved</h3>
+                    <div class="stat-value" id="problems-solved">175+</div>
+                    <div class="progress-container">
+                        <div class="progress-bar" style="width: 85%"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">
+                    <i class="fas fa-trophy"></i>
+                </div>
+                <div class="stat-content">
+                    <h3>Contest Rating</h3>
+                    <div class="stat-value" id="contest-rating">1800+</div>
+                    <div class="badge">Knight</div>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">
+                    <i class="fas fa-globe-americas"></i>
+                </div>
+                <div class="stat-content">
+                    <h3>Global Rank</h3>
+                    <div class="stat-value" id="global-rank">Top 10%</div>
+                    <div class="trend">
+                        <i class="fas fa-arrow-up"></i> 15% from last month
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Floating 3D Elements -->
+    <div id="floating-models"></div>
+</main>
+
+<!-- Footer -->
+<footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>          
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#personal">Contact</a></li>
+                    <li><a href="#coding-profile">Coding Profile</a></li>
+                    <li><a href="./resume/resume.pdf">Resume</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Me</h3>
+                <div class="social-icons">
+                    <a href="https://github.com/JAGAN-KARTHICK-A" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/jagankarthick" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://leetcode.com/JaganKarthick" target="_blank"><i class="fas fa-code"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 A.Jagan Karthick. All rights reserved. | Made with ❤️ by Me</p>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script_final.js"></script>
+</body>
+</html>
